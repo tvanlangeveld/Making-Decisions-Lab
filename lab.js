@@ -6,6 +6,14 @@
   If it is not, console log "Coding has its challenges."
 */
 
+let lovesCode = true;
+
+if(lovesCode === true ){
+  console.log('I love to code!')
+} else{
+  console.log('coding has its challenges')
+}
+
 //CODE HERE
 
 // For problems 2-3 use the following lines of code:
@@ -20,6 +28,15 @@ var brittanisBirthYear = 1986;
   Using an if statement and a comparison operator, create code that will check if Amy or Brittani is older, and then console.log '{name} is older'. Hint: Consider what will happen if they are the same age. Handle this situation.
 */
 
+if(amysAge > brittanisAge){
+  console.log("amy is older")
+} else if(amysAge === brittanisAge){
+  console.log("they are the same age")
+} else {
+  console.log('brittany is older')
+}
+
+
 //CODE HERE
 
 ////////// PROBLEM 3 //////////
@@ -29,6 +46,13 @@ var brittanisBirthYear = 1986;
 */
 
 //CODE HERE
+
+if(amysBirthYear === brittanisBirthYear){
+  console.log('brittany and Amy were born in the same year')
+} else{
+  console.log('they are born in different years')
+}
+
 
 ////////// PROBLEM 4 //////////
 
@@ -41,6 +65,14 @@ let rain = true;
 */
 
 //CODE HERE
+
+if(temperature >= 80 && rain === true){
+  console,log('one should wear a t shirt today')
+} else if( temperature < 60 && temperature < 80 && rain === true){
+  console.log('one should wear a rain jacket')
+} else if(temperature < 60){
+console.log('one should wear a jacket')
+}
 
 ////////// PROBLEM 5 //////////
 
